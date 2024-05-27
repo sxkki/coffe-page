@@ -7,8 +7,7 @@ body {
 
 /* TITLE AND LOGO */
 .logo-top h1 {
-  text-align: center;
-  color: #eacdbc;
+  color: #000;
 }
 
 .logo-top img {
@@ -16,35 +15,31 @@ body {
   padding: auto;
   width: 160px;
   margin: 5px auto 0 auto;
-  padding-top: 10px;
 }
 
 /* MENU */
 
 .menu {
   width: 100%;
-  background-color: #ab846e;
-  text-align: center;
-  justify-content: center;
+  background-color: #EFBE7D;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   padding: 15px;
-  max-width: 450px;
+  max-width: 420px;
   border-radius: 20px;
-  box-shadow: 0 20px 20px 10px  #000;
+  box-shadow: 0 20px 15px  #000;
 }
 
 h1,
 h2,
 p {
   text-align: center;
-  color: #eacdbc;
 }
 
 hr {
-  height: 10px;
-  background-color: #f9eee8;
-  border-color: #f9eee8;
+  height: 5px;
+  background-color: #4E2A2A;
+  border-color: #4E2A2A;
   border-radius: 30px;
 }
 
@@ -81,23 +76,22 @@ footer {
 }
 
 a {
-  color: #eacdbc;
+  color: black;
 }
 
 a:visited {
-  color: #eacdbc;
+  color: black;
 }
 
 a:hover {
-  color: #eacdbc;
+  color: brown;
 }
 
 a:active {
-  color: #eacdbc;
+  color: brown;
 }
 
-/* RESPONSIVE */
-@media (max-width:590px) {
+@media (max-width:767px) {
 
 body {
   background-image: url(/src/img/fondo-coffee2.jpg);
@@ -108,8 +102,7 @@ body {
 
 /* TITLE AND LOGO */
 .logo-top h1 {
-  text-align: center;
-  color: #eacdbc;
+  color: #000;
 }
 
 .logo-top img {
@@ -123,31 +116,27 @@ body {
 
 .menu {
   width: 100%;
-  background-color: #ab846e;
-  text-align: center;
+  background-color: #EFBE7D;
+  display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right:auto;
-  padding: 0px;
-  padding-bottom: 2px;
-  max-width: 450px;
+  align-items: center;
+  padding: 15px;
+  max-width: 420px;
   border-radius: 20px;
-  box-shadow: 0 20px 20px 10px  #000;
+  box-shadow: 0 20px 15px  #000;
 }
 
 h1,
 h2,
 p {
   text-align: center;
-  color: #eacdbc;
 }
 
 hr {
-  height: 10px;
-  background-color: #f9eee8;
-  border-color: #f9eee8;
+  height: 5px;
+  background-color: #4E2A2A;
+  border-color: #4E2A2A;
   border-radius: 30px;
-  margin: 5px;
 }
 
 .item p {
@@ -183,18 +172,18 @@ footer {
 }
 
 a {
-  color: #eacdbc;
+  color: black;
 }
 
 a:visited {
-  color: #eacdbc;
+  color: black;
 }
 
 a:hover {
-  color: #eacdbc;
+  color: brown;
 }
 
 a:active {
-  color: #eacdbc;
+  color: brown;
 }
 }
