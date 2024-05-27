@@ -6,8 +6,13 @@ body {
 }
 
 /* TITLE AND LOGO */
+.logo-top {
+  position: relative;
+}
+
 .logo-top h1 {
-  color: #000;
+  text-align: center;
+  color: #eacdbc;
 }
 
 .logo-top img {
@@ -15,31 +20,35 @@ body {
   padding: auto;
   width: 160px;
   margin: 5px auto 0 auto;
+  padding-top: 10px;
 }
 
 /* MENU */
 
 .menu {
   width: 100%;
-  background-color: #EFBE7D;
+  background-color: #ab846e;
+  text-align: center;
+  justify-content: center;
   margin-left: auto;
-  margin-right: auto;
+  margin-right:auto;
   padding: 15px;
-  max-width: 420px;
+  max-width: 450px;
   border-radius: 20px;
-  box-shadow: 0 20px 15px  #000;
+  box-shadow: 0 20px 20px 10px  #000;
 }
 
 h1,
 h2,
 p {
   text-align: center;
+  color: #eacdbc;
 }
 
 hr {
-  height: 5px;
-  background-color: #4E2A2A;
-  border-color: #4E2A2A;
+  height: 10px;
+  background-color: #f9eee8;
+  border-color: #f9eee8;
   border-radius: 30px;
 }
 
@@ -76,22 +85,69 @@ footer {
 }
 
 a {
-  color: black;
+  color: #eacdbc;
 }
 
 a:visited {
-  color: black;
+  color: #eacdbc;
 }
 
 a:hover {
-  color: brown;
+  color: #eacdbc;
 }
 
 a:active {
-  color: brown;
+  color: #eacdbc;
 }
 
-@media (max-width:767px) {
+/* img to home*/
+#home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+/* Cards Section */
+.card-section{
+  position: content;
+  justify-content: center;
+}
+
+.cards{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: #d8af97;
+  width: 100px;
+  box-shadow: 0 5px 5px #000;
+  border-radius: 55px;
+}
+
+.cards p{
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+
+.cards img{
+  width: 45px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+#coffee-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+/* RESPONSIVE */
+@media (max-width:590px) {
 
 body {
   background-image: url(/src/img/fondo-coffee2.jpg);
@@ -102,7 +158,8 @@ body {
 
 /* TITLE AND LOGO */
 .logo-top h1 {
-  color: #000;
+  text-align: center;
+  color: #eacdbc;
 }
 
 .logo-top img {
@@ -116,27 +173,31 @@ body {
 
 .menu {
   width: 100%;
-  background-color: #EFBE7D;
-  display: flex;
+  background-color: #ab846e;
+  text-align: center;
   justify-content: center;
-  align-items: center;
-  padding: 15px;
-  max-width: 420px;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 0px;
+  padding-bottom: 2px;
+  max-width: 450px;
   border-radius: 20px;
-  box-shadow: 0 20px 15px  #000;
+  box-shadow: 0 20px 20px 10px  #000;
 }
 
 h1,
 h2,
 p {
   text-align: center;
+  color: #eacdbc;
 }
 
 hr {
-  height: 5px;
-  background-color: #4E2A2A;
-  border-color: #4E2A2A;
+  height: 10px;
+  background-color: #f9eee8;
+  border-color: #f9eee8;
   border-radius: 30px;
+  margin: 5px;
 }
 
 .item p {
@@ -172,18 +233,18 @@ footer {
 }
 
 a {
-  color: black;
+  color: #eacdbc;
 }
 
 a:visited {
-  color: black;
+  color: #eacdbc;
 }
 
 a:hover {
-  color: brown;
+  color: #eacdbc;
 }
 
 a:active {
-  color: brown;
+  color: #eacdbc;
 }
 }
