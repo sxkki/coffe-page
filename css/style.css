@@ -119,7 +119,7 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  background-color: #d8af97;
+  background-color: #c19982;
   width: 100px;
   box-shadow: 0 5px 5px #000;
   border-radius: 55px;
@@ -128,6 +128,7 @@ a:active {
 .cards p{
   margin-top: 0;
   padding-bottom: 5px;
+  color: #fdeee2;
 }
 
 .cards img{
